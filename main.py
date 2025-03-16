@@ -1,7 +1,6 @@
 import os
 import streamlit as st
 
-# Update imports for LangChain
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
